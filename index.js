@@ -25,6 +25,7 @@ const cosasQueAprendimos = [
   },
 ];
 
+function main() {}
 const lista = document.querySelector("ul");
 
 const elementosLi = lista.querySelectorAll("li");
@@ -41,6 +42,5 @@ cosasQueAprendimos.forEach((item) => {
   }
   lista.appendChild(li);
 });
-function main() {}
 
 main();
